@@ -1,0 +1,56 @@
+.container {
+  max-width: 100%;
+  margin: auto;
+}
+
+.row {
+  display: flex;
+}
+
+.column-half {
+  flex-basis: 50%;
+}
+
+.center {
+  text-align: center;
+}
+
+.background-blue {
+  background-color: #f8fbff;
+}
+
+.height {
+  height: 100vh;
+}
+
+.square {
+  background-color: #fff;
+  border-radius: 10px;
+  display: inline-block;
+  padding: 40px;
+
+  /* background-image:
+    linear-gradient(rgba(0, 0, 0, 0), rgba(18, 15, 15, 0)),
+    url("https://cdn.dribbble.com/users/1144645/screenshots/3953731/mktg-5976_air_ad_v02_43.gif");
+  background-size: cover;
+  background-position-x: 80%; */
+}
+
+.background-plane {
+  background-image:
+    linear-gradient(rgba(0, 0, 0, 0), rgba(255, 255, 255, 0.209)),
+    url("https://media.istockphoto.com/id/1174854848/vector/aircraft-destinations-with-planes-icons-on-blue-background-abstract-seamless-pattern.jpg?s=612x612&w=0&k=20&c=hcj3Eu8HC2JWbliY5CZChDNpGrLNjvZylU-6JidI3IM=");
+  filter: brightness(1.1);
+  background-size: contain;
+
+  /* background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(255, 255, 255, 0.209)),
+  url("https://media.istockphoto.com/id/538992590/vector/airline-routes-with-planes-on-white.jpg?s=612x612&w=0&k=20&c=BBJDvbjHiNIkemRKMsAwuBMCBSfDjIHdCL_uEkdHMhY=");
+  filter: brightness(1.1);
+  background-size: contain; */
+
+  /* background-image:
+    linear-gradient(rgba(0, 0, 0, 0), rgba(18, 15, 15, 0)),
+    url("https://cdn.dribbble.com/users/1144645/screenshots/3953731/mktg-5976_air_ad_v02_43.gif");
+  background-position-x: 80%;
+  background-size: 70.5em; */
+}
